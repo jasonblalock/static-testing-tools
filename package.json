@@ -3,9 +3,14 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  "scripts": {},
+  "scripts": {
+    "lint": "eslint src",
+    "lint:fix": "yarn lint --fix"
+  },
   "keywords": [],
   "author": "Kent C. Dodds <kent@doddsfamily.us> (http://kentcdodds.com/)",
   "license": "MIT",
-  "devDependencies": {}
+  "devDependencies": {
+    "eslint": "^5.9.0"
+  }
 }
